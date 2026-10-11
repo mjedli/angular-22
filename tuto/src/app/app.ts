@@ -9,5 +9,4 @@ import { Menu } from './pages/menu/menu';
   templateUrl: './app.html',
 })
 export class App {
-  protected readonly title = signal('tuto');
 }

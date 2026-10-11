@@ -10,6 +10,10 @@ export class Home {
 
   count = signal(0);
 
+  users = ['Mejdi', 'Ali', 'Sara'];
+
+  isConnected = true;
+
   increment() {
     this.count.update(value => value + 1);
   }

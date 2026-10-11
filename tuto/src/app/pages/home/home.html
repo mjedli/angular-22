@@ -9,4 +9,16 @@
 <br><br>
 <button (click)="reset()">Reset</button>
 <br><br>
+
+@for (user of users; track user) {
+    {{ user }}
+}
+
+<br><br>
+
+@if (isConnected) {
+    Utilisateur connecté
+}
+
+
 </div>

@@ -14,6 +14,12 @@ export class Home {
 
   isConnected = true;
 
+  rdv = {
+    date: '2026-10-10',
+    heure: '08:00',
+    reservedId: '123'
+  };
+
   increment() {
     this.count.update(value => value + 1);
   }
